@@ -1,0 +1,70 @@
+.navbar-lista	{
+	margin-right: 5rem;
+}
+
+.carrossel-img	{
+	margin-top: 58px;
+}
+
+
+.carrossel-img  {
+	height: calc(100vh - 58px);
+	object-fit: cover;
+}
+
+.principal__titulo, .disponibilizadas__titulo, .receita__titulo	{
+	color: #8d0606;
+	font-family: Pacifico, cursive;
+}
+
+.receita	{
+	display: flex;
+}
+	
+.card__tamanho	{
+	margin-left: 120px;
+	width: 18rem;
+}
+
+.card__imagem	{
+	height: 150px;
+}
+
+.botao-cor 	{
+	color: white;
+	background-color: darkred;
+}
+
+.contato 	{
+	background-color: #DDDDDD;
+	margin-top: 40px;
+}
+
+.contato__conteudo 	{
+	height: 250px;
+	padding-left: 240px;
+	
+}
+
+.contato__titulo	{
+	font-family: pacifico, cursive;
+	padding: 40px 0;
+	text-align: center;
+}
+
+.contato__display		{
+	display: inline-block;
+	padding-left: 20px;
+}
+
+.contato__info	{
+	display: inline-block;
+	margin-bottom: 90px;	
+	width: 33%;
+}
+
+.rodape	{
+	background: #BE81F7;
+	padding: 1rem;
+	text-align: center;
+}
