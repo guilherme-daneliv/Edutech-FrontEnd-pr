@@ -1,0 +1,167 @@
+.parallax	{
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	opacity: 0.4;
+	position: relative;
+}
+
+.principal	{
+	height: calc(100vh - 60px);
+	position: relative;
+}
+
+.principal__bg	{
+	background-image: url(Edutech.png);
+}
+
+.sobre 	{
+	height: 60%;
+	position: absolute;
+	top: 25vh;
+	left: 100px;
+	width: 30%;
+}
+
+.sobre__titulo, .aprendizado__titulo, .alura__titulo, .meet__titulo	{
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.sobre__texto, .aprendizado__descricao, .alura__descricao, .meet__descricao	{
+	padding: 10px;
+	text-align: justify;
+}
+
+.para-mim{
+	height: 70vh;
+	position: relative;
+}
+
+.aprendizado{
+	height: 60%;
+	position: absolute;
+	top: 25vh;
+	right: 100px;
+	width: 30%;
+}
+
+.icone-laptop	{
+	color: darkgreen;
+	position: absolute;
+	left: 200px;
+	top: 30vh;
+
+}
+
+.plataforma	{
+	height: 100vh;
+	position: relative;
+}
+
+.alura-bg	{
+	background-image: url(alura.png);
+}
+
+.alura  {
+	height: 60%;
+	position: absolute;
+	top: 15vh;
+	right: 100px;
+	width: 30%;
+}
+
+.meet{
+	height: 40%;
+	position: absolute;
+	top: 55vh;
+	left: 100px;
+	width: 30%;
+}
+
+.curso	{
+	background-color: #EEEEEE;
+	height: 100vh;
+	position: relative;
+}
+
+.curso__titulo 	{
+	padding-bottom: 16px;
+	padding-top: 10px;
+	text-align: center;
+}
+
+.cursos__titulo	{
+	padding: 10px;
+	padding-bottom: 0;
+	padding-top: 14px;
+	text-align: center;
+}
+
+.cursos__titulo--games1	{
+	color: #01DF74;
+}
+
+.cursos__titulo--games2	{
+	color: #088A68;
+}
+
+.cursos__titulo--front	{
+	color: #0174DF;
+}
+
+.cursos__titulo--script	{
+	color: #D7DF01;
+}
+
+.cursos__titulo--java	{
+	color: #FE2E2E;
+}
+
+.cursos__conteudo	{
+	padding: 10px 10px 20px 10px;
+	text-align: center;
+}
+
+.final	{
+	background-color: #F7FE2E;
+	display: flex;
+	height: 60vh;
+}
+
+.conteudo{
+	color: #fdfdfd;
+	padding-left: 120px;
+	padding-top: 120px;
+	text-shadow: 10px 10px 30px #5E610B;
+	width: 35%;
+}
+
+.conteudo__titulo	{
+	text-align: center;
+}
+
+.conteudo__descricao	{
+	font-size: 20px;
+	text-align: center;
+}
+
+.video	{
+	padding-bottom: 30px;
+	padding-left: 150px;
+	padding-top: 35px;
+	width: 40%;
+}
+
+.rodape	{
+	background-color: #fdfdfd;
+	height: 40px;
+}
+
+.rodape__conteudo 	{
+	margin-top: 20px;
+	text-align: center;
+}
+
